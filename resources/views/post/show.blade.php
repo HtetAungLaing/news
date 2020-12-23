@@ -13,11 +13,12 @@
         <meta name="description" content="{{ $post->description }}">
 
         <!-- Open Graph / Facebook -->
-        <meta property="og:type" content="website">
+        <meta property="og:type" content="article">
         <meta property="og:url" content="http://139.180.191.179/post/{{ $post->id }}">
         <meta property="og:title" content="{{ $post->title }}">
         <meta property="og:description" content="{{ $post->description }}">
         <meta property="og:image" content="http://139.180.191.179/storage/photo/{{ $post->og_photo }}">
+        <meta property="fb:app_id" content="261699568619802">
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
