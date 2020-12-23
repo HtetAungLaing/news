@@ -1,0 +1,15 @@
+@font-face{
+    font-family: custom;
+    src: url(font.ttf);
+}
+*{
+    font-family: custom;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.title{
+    line-height: 2;
+}
