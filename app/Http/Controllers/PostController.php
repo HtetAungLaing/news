@@ -16,7 +16,8 @@ class PostController extends Controller
     public function index()
     {
         $posts = Article::orderBy("id", "desc")->paginate(9);
-        return view("post.index", compact('posts'));
+        $relateds = \App\Article::inRandomOrder()->limit(3)->get();
+        return view("post.index", compact('posts', 'relateds'));
     }
 
     /**
@@ -49,9 +50,12 @@ class PostController extends Controller
     public function show($id)
     {
         $posts = new Article();
-        $post = $posts::find($id);
-        $relateds = $posts::inRandomOrder()->where("category_id", "=", "$post->category_id")->limit(3)->get();
-        return view("post.show", compact('post', 'relateds'));
+        if ($post = $posts::find($id)) {
+            $relateds = $posts::inRandomOrder()->limit(3)->get();
+            return view("post.show", compact('post', 'relateds'));
+        } else {
+            return abort(404);
+        }
     }
 
     /**
