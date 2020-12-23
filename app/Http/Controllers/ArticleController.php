@@ -10,10 +10,10 @@ use Illuminate\Support\Facades\Storage;
 
 class ArticleController extends Controller
 {
-    // public function __construct()
-    // {
-    //     $this->middleware("auth");
-    // }
+    public function __construct()
+    {
+        $this->middleware("auth");
+    }
     /**
      * Display a listing of the resource.
      *
@@ -21,8 +21,9 @@ class ArticleController extends Controller
      */
     public function index()
     {
-        $articles = Article::orderBy("id", "desc")->paginate(5);
-        return view("article.index", compact('articles'))->render();
+        $articles = Article::orderBy("id", "desc")->get();
+        return view("article.index", compact('articles'));
+        $this->middleware("auth");
     }
 
 
@@ -123,6 +124,8 @@ class ArticleController extends Controller
      */
     public function destroy(Article $article)
     {
-        //
+        $this->aaa($article->og_photo);
+        $article->delete();
+        return redirect()->route("article.index")->with('del-status', "<p class='alert alert-warning'>Deleted Successfully</p>");
     }
 }

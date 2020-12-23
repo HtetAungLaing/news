@@ -14,7 +14,7 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        //
+        return view("category.index");
     }
 
     /**
@@ -64,7 +64,7 @@ class CategoryController extends Controller
      */
     public function edit(Category $category)
     {
-        //
+        return view("category.edit", compact('category'));
     }
 
     /**
@@ -76,7 +76,9 @@ class CategoryController extends Controller
      */
     public function update(Request $request, Category $category)
     {
-        //
+        $category->name = $request->name;
+        $category->update();
+        return redirect()->route("category.index")->with("update-status", "<p class='alert alert-success'>Edited successfully</p>");
     }
 
     /**
@@ -87,6 +89,7 @@ class CategoryController extends Controller
      */
     public function destroy(Category $category)
     {
-        //
+        $category->delete();
+        return redirect()->route("category.index")->with('del-status', "<p class='alert alert-warning'>Edited successfully</p>");
     }
 }

@@ -3,7 +3,7 @@
     src: url(font.ttf);
 }
 *{
-    font-family: custom;
+    font-family: sans-serif;
 }
 .navbar{
     position: sticky;

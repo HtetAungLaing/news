@@ -17,14 +17,17 @@ use Illuminate\Support\Facades\Route;
 Route::prefix("/admin3")->group(function () {
     Route::resource("article", "ArticleController");
     Route::resource("category", "CategoryController");
+    Auth::routes();
+    Route::get('/home', 'HomeController@index')->name('home');
 });
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// })->name("index");
 
-Auth::routes();
+Route::get("/", "PostController@index")->name("post.index");
+Route::get("/post/{id}", "PostController@show")->name("post.show");
 
 // Auth::routes(['register' => false]);
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');

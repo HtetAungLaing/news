@@ -8,7 +8,7 @@
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb mb-0">
                                 <li class="breadcrumb-item"><a href="{{ route('category.index') }}">Category</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Create</li>
+                                <li class="breadcrumb-item active" aria-current="page">Edit</li>
                             </ol>
                         </nav>
                     </div>
@@ -24,16 +24,17 @@
                         @if (session('status'))
                             {!! session('status') !!}
                         @endif
-                        <form action="{{ route('category.store') }}" method="post" enctype="multipart/form-data">
+                        <form action="{{ route('category.update', $category->id) }}" method="post" enctype="multipart/form-data">
+                            @method("put")
                             @csrf
                             <div class="form-group">
                                 <label for="title">Name</label>
-                                <input type="text" class="form-control" name="name">
+                                <input type="text" class="form-control" name="name" value="{{ $category->name }}">
                                 @error('name')
                                     <small class="text-danger">{{ $message }}</small>
                                 @enderror
                             </div>
-                            <button class="btn btn-primary" name="addBtn">Add Now</button>
+                            <button class="btn btn-primary" name="addBtn">Update</button>
                         </form>
                     </div>
                 </div>
