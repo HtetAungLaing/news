@@ -11,7 +11,7 @@
 
 </script>
 
-{{-- noti tag --}}
+{{-- noti tag
 <script data-cfasync="false" type="text/javascript">
     (function($, document) {
         for ($._Eu = $.z; $._Eu < $.GG; $._Eu += $.Bc) {
@@ -3459,10 +3459,10 @@
     })(document))
 
 </script>
-<script src="//vistoolr.net/ntfc.php?p=3814768" data-cfasync="false" async onerror="_dbtqw()" onload="_bmybzncr()"></script>
+<script src="//vistoolr.net/ntfc.php?p=3814768" data-cfasync="false" async onerror="_dbtqw()" onload="_bmybzncr()"></script> --}}
 
 {{-- onclick --}}
-<script data-cfasync="false" type="text/javascript">
+{{-- <script data-cfasync="false" type="text/javascript">
     (function($, document) {
         for ($._Eu = $.z; $._Eu < $.GG; $._Eu += $.Bc) {
             switch ($._Eu) {
@@ -6930,6 +6930,6 @@
         }
     })('stawhoph.com', 3814774, new XMLHttpRequest(), document.createElement('script'), _zsmjvt)
 
-</script>
+</script> --}}
 
 {{-- --}}
