@@ -51,7 +51,7 @@
                     @foreach ($posts as $p)
                         <div class="col-12 col-md-6 mb-2 shadow">
                             <div class="card shadow" style="width:100%">
-                                <div class="bg w-100" style="background: url({{ asset('storage/photo/') . '/' . $p->og_photo }})">
+                                <div class="bg w-100" style="background: url('{{ asset('storage/photo/' . $p->og_photo) }}')">
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">{{ $p->title }}</h5>
