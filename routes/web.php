@@ -31,3 +31,7 @@ Route::get("/post/{id}", "PostController@show")->name("post.show");
 // Auth::routes(['register' => false]);
 
 // Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

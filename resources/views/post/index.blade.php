@@ -8,23 +8,23 @@
     <title>အင်ကြင်းသတင်း</title>
     @component('components.meta')
         <!-- Primary Meta Tags -->
-        <link rel="canonical" href="http://139.180.191.179/index.php">
+        <link rel="canonical" href="http://www.ingyinnews.online/index.php">
         <meta name="title" content="အင်ကြင်းသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ">
         <meta name="description" content="အင်ကြင်းသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ Like လုပ်ခြင်းဖြင့် လွယ်ကူစွာ ဖတ်ရှုလိုက်ပါ">
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
-        <meta property="og:url" content="http://139.180.191.179/">
+        <meta property="og:url" content="http://www.ingyinnews.online/">
         <meta property="og:title" content="အင်ကြင်းသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ">
         <meta property="og:description" content="အင်ကြင်းသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ Like လုပ်ခြင်းဖြင့် လွယ်ကူစွာ ဖတ်ရှုလိုက်ပါ">
-        <meta property="og:image" content="http://139.180.191.179/storage/cover/cover.jpg">
+        <meta property="og:image" content="http://www.ingyinnews.online/storage/cover/cover.jpg">
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="http://139.180.191.179/">
+        <meta property="twitter:url" content="http://www.ingyinnews.online/">
         <meta property="twitter:title" content="အင်ကြင်းသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ">
         <meta property="twitter:description" content="အင်ကြင်းသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ Like လုပ်ခြင်းဖြင့် လွယ်ကူစွာ ဖတ်ရှုလိုက်ပါ">
-        <meta property="twitter:image" content="http://139.180.191.179/storage/cover/cover.jpg">
+        <meta property="twitter:image" content="http://www.ingyinnews.online/storage/cover/cover.jpg">
     @endcomponent
     @component('components.css')
     @endcomponent
