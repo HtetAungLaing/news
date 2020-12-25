@@ -17,14 +17,14 @@
         <meta property="og:url" content="http://www.ingyinnews.online/">
         <meta property="og:title" content="အင်ကြင်းသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ">
         <meta property="og:description" content="အင်ကြင်းသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ Like လုပ်ခြင်းဖြင့် လွယ်ကူစွာ ဖတ်ရှုလိုက်ပါ">
-        <meta property="og:image" content="http://www.ingyinnews.online/storage/cover/cover.jpg">
+        <meta property="og:image" content="{{ asset('storage/photo/cover.jpg') }}">
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="http://www.ingyinnews.online/">
         <meta property="twitter:title" content="အင်ကြင်းသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ">
         <meta property="twitter:description" content="အင်ကြင်းသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ Like လုပ်ခြင်းဖြင့် လွယ်ကူစွာ ဖတ်ရှုလိုက်ပါ">
-        <meta property="twitter:image" content="http://www.ingyinnews.online/storage/cover/cover.jpg">
+        <meta property="twitter:image" content="{{ asset('storage/photo/cover.jpg') }}">
     @endcomponent
     @component('components.css')
     @endcomponent
