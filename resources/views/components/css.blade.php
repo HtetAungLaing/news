@@ -3,7 +3,7 @@
     crossorigin="anonymous">
 <link rel="stylesheet" href="{{ asset('vendor/feather-icons-web/feather.css') }}">
 <!-- Global site tag (gtag.js) - Google Analytics -->
-{{-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-X7P5ESNQGW"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X7P5ESNQGW"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -14,4 +14,4 @@
 
     gtag('config', 'G-X7P5ESNQGW');
 
-</script> --}}
+</script>
