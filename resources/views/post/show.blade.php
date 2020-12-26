@@ -47,6 +47,7 @@
         @endcomponent
 
         <div class="row mt-2">
+            {{-- ads --}}
             <div class="col-12">
                 <script data-cfasync='false' type='text/javascript' src='//p421506.clksite.com/adServe/banners?tid=421506_826619_0'></script>
             </div>
@@ -75,7 +76,6 @@
             <div class="col-12">
                 <script data-cfasync='false' type='text/javascript' src='//p421506.clksite.com/adServe/banners?tid=421506_826619_4&type=footer&size=22'></script>
             </div>
-            {{-- ad ends --}}
             <div class="col-12 col-md-4 mt-4 mt-md-0">
                 <div class="row">
                     <div class="col-12 my-4 my-md-0">
@@ -101,7 +101,6 @@
             </div>
             {{-- adsstart --}}
             <script type='text/javascript' src='//p421506.clksite.com/adServe/banners?tid=421506_826619_5&type=floating_banner&size=6&side=right&position=bottom'></script>
-            {{-- ads end --}}
         </div>
     </div>
 
