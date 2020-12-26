@@ -5,25 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>အင်ကြင်းသတင်း</title>
+    <title>အော်ရိုရာသတင်း</title>
     @component('components.meta')
         <!-- Primary Meta Tags -->
-        <link rel="canonical" href="http://www.ingyinnews.online/index.php">
-        <meta name="title" content="အင်ကြင်းသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ">
-        <meta name="description" content="အင်ကြင်းသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ Like လုပ်ခြင်းဖြင့် လွယ်ကူစွာ ဖတ်ရှုလိုက်ပါ">
+        <link rel="canonical" href="http://www.auroranews.online/index.php">
+        <meta name="title" content="အော်ရိုရာသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ">
+        <meta name="description" content="အော်ရိုရာသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ Like လုပ်ခြင်းဖြင့် လွယ်ကူစွာ ဖတ်ရှုလိုက်ပါ">
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
-        <meta property="og:url" content="http://www.ingyinnews.online/">
-        <meta property="og:title" content="အင်ကြင်းသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ">
-        <meta property="og:description" content="အင်ကြင်းသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ Like လုပ်ခြင်းဖြင့် လွယ်ကူစွာ ဖတ်ရှုလိုက်ပါ">
+        <meta property="og:url" content="http://www.auroranews.online/">
+        <meta property="og:title" content="အော်ရိုရာသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ">
+        <meta property="og:description" content="အော်ရိုရာသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ Like လုပ်ခြင်းဖြင့် လွယ်ကူစွာ ဖတ်ရှုလိုက်ပါ">
         <meta property="og:image" content="{{ asset('storage/photo/cover.jpg') }}">
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="http://www.ingyinnews.online/">
-        <meta property="twitter:title" content="အင်ကြင်းသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ">
-        <meta property="twitter:description" content="အင်ကြင်းသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ Like လုပ်ခြင်းဖြင့် လွယ်ကူစွာ ဖတ်ရှုလိုက်ပါ">
+        <meta property="twitter:url" content="http://www.auroranews.online/">
+        <meta property="twitter:title" content="အော်ရိုရာသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ">
+        <meta property="twitter:description" content="အော်ရိုရာသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ Like လုပ်ခြင်းဖြင့် လွယ်ကူစွာ ဖတ်ရှုလိုက်ပါ">
         <meta property="twitter:image" content="{{ asset('storage/photo/cover.jpg') }}">
     @endcomponent
     @component('components.css')
