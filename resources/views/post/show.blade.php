@@ -99,8 +99,6 @@
                     @endforeach
                 </div>
             </div>
-            {{-- adsstart --}}
-            <script type='text/javascript' src='//p421506.clksite.com/adServe/banners?tid=421506_826619_5&type=floating_banner&size=6&side=right&position=bottom'></script>
         </div>
     </div>
 
