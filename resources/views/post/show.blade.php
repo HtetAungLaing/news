@@ -73,10 +73,10 @@
                 </div>
             </div>
             {{-- 2,3 ad break --}}
-            <div class="col-12">
+            <div class="col-12 my-3">
                 <script data-cfasync='false' type='text/javascript' src='//p421506.clksite.com/adServe/banners?tid=421506_826619_6&size=7'></script>
             </div>
-            <div class="col-12 col-md-4 mt-4 mt-md-0">
+            <div class="col-12 col-md-4 mt-md-0">
                 <div class="row">
                     <div class="col-12 my-4 my-md-0">
                         <h6 class="mt-2"><b>အခြား သတင်းများ <i class="feather-book-open ml-2"></i></b></h6>
