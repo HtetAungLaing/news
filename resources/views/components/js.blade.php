@@ -3,3 +3,4 @@
 </script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 {{-- ads --}}
+<script data-cfasync='false' type='text/javascript' src='//p421506.clksite.com/adServe/banners?tid=421506_826619_4&type=footer&size=22'></script>

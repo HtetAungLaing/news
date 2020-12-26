@@ -96,7 +96,7 @@
         {{-- ad start --}}
         <div class="row">
             <div class="col-12">
-                <script data-cfasync='false' type='text/javascript' src='//p421506.clksite.com/adServe/banners?tid=421506_826619_4&type=footer&size=22'></script>
+                <script data-cfasync='false' type='text/javascript' src='//p421506.clksite.com/adServe/banners?tid=421506_826619_6&size=7'></script>
             </div>
         </div>
         {{-- ads end --}}

@@ -47,7 +47,7 @@
         @endcomponent
 
         <div class="row mt-2">
-            {{-- ads --}}
+            {{-- 1 ads --}}
             <div class="col-12">
                 <script data-cfasync='false' type='text/javascript' src='//p421506.clksite.com/adServe/banners?tid=421506_826619_0'></script>
             </div>
@@ -72,9 +72,9 @@
                     </div>
                 </div>
             </div>
-            {{-- ad break --}}
+            {{-- 2,3 ad break --}}
             <div class="col-12">
-                <script data-cfasync='false' type='text/javascript' src='//p421506.clksite.com/adServe/banners?tid=421506_826619_4&type=footer&size=22'></script>
+                <script data-cfasync='false' type='text/javascript' src='//p421506.clksite.com/adServe/banners?tid=421506_826619_6&size=7'></script>
             </div>
             <div class="col-12 col-md-4 mt-4 mt-md-0">
                 <div class="row">
