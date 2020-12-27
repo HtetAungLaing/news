@@ -7,25 +7,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>အော်ရိုရာသတင်း</title>
     @component('components.meta')
-        <link rel="canonical" href="http://www.auroranews.online/post/{{ $post->id }}">
+        <link rel="canonical" href="http://66.42.56.33/post/{{ $post->id }}">
         <!-- Primary Meta Tags -->
         <meta name="title" content="{{ $post->title }}">
         <meta name="description" content="{{ $post->description }}">
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="article">
-        <meta property="og:url" content="http://www.auroranews.online/post/{{ $post->id }}">
+        <meta property="og:url" content="http://66.42.56.33/post/{{ $post->id }}">
         <meta property="og:title" content="{{ $post->title }}">
         <meta property="og:description" content="{{ $post->description }}">
-        <meta property="og:image" content="http://www.auroranews.online/storage/photo/{{ $post->og_photo }}">
+        <meta property="og:image" content="http://66.42.56.33/storage/photo/{{ $post->og_photo }}">
 
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="http://www.auroranews.online/post/{{ $post->id }}">
+        <meta property="twitter:url" content="http://66.42.56.33/post/{{ $post->id }}">
         <meta property="twitter:title" content="{{ $post->title }}">
         <meta property="twitter:description" content="{{ $post->description }}">
-        <meta property="twitter:image" content="http://www.auroranews.online/storage/photo/{{ $post->og_photo }}">
+        <meta property="twitter:image" content="http://66.42.56.33/storage/photo/{{ $post->og_photo }}">
     @endcomponent
     @component('components.css')
 
