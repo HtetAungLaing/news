@@ -46,9 +46,6 @@
         @endcomponent
 
         <div class="row mt-2">
-            <div class="col-12">
-                <script data-cfasync='false' type='text/javascript' src='//p421506.clksite.com/adServe/banners?tid=421506_826619_0'></script>
-            </div>
             <div class="col-12 col-md-8">
                 <div class="row">
                     @foreach ($posts as $p)
@@ -92,14 +89,6 @@
                 </div>
             </div>
         </div>
-
-        {{-- ad start --}}
-        <div class="row">
-            <div class="col-12">
-                <script data-cfasync='false' type='text/javascript' src='//p421506.clksite.com/adServe/banners?tid=421506_826619_6&size=7'></script>
-            </div>
-        </div>
-        {{-- ads end --}}
 
         <div class="row justify-contents-center">
             <div class="col-12">
