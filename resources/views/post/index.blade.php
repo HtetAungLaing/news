@@ -8,20 +8,20 @@
     <title>အော်ရိုရာသတင်း</title>
     @component('components.meta')
         <!-- Primary Meta Tags -->
-        <link rel="canonical" href="http://66.42.56.33/index.php">
+        <link rel="canonical" href="http://45.77.168.97/index.php">
         <meta name="title" content="အော်ရိုရာသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ">
         <meta name="description" content="အော်ရိုရာသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ Like လုပ်ခြင်းဖြင့် လွယ်ကူစွာ ဖတ်ရှုလိုက်ပါ">
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
-        <meta property="og:url" content="http://66.42.56.33/">
+        <meta property="og:url" content="http://45.77.168.97/">
         <meta property="og:title" content="အော်ရိုရာသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ">
         <meta property="og:description" content="အော်ရိုရာသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ Like လုပ်ခြင်းဖြင့် လွယ်ကူစွာ ဖတ်ရှုလိုက်ပါ">
         <meta property="og:image" content="{{ asset('storage/photo/cover.jpg') }}">
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="http://66.42.56.33/">
+        <meta property="twitter:url" content="http://45.77.168.97/">
         <meta property="twitter:title" content="အော်ရိုရာသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ">
         <meta property="twitter:description" content="အော်ရိုရာသတင်း ကဏ္ဍစုံ နယ်ပယ်စုံမှသတင်းများနှင့် ဖျော်ဖြေရေး သတင်းစုံ Like လုပ်ခြင်းဖြင့် လွယ်ကူစွာ ဖတ်ရှုလိုက်ပါ">
         <meta property="twitter:image" content="{{ asset('storage/photo/cover.jpg') }}">
